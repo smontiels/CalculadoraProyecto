@@ -3,7 +3,7 @@ import math
 import numpy as np
 
 ##Variables
-action = 0;
+action = 0
 
 ##Método principal
 while action != 10:
@@ -54,7 +54,6 @@ while action != 10:
 
             if respuesta != 1 :
                 salirFlujoSecundario = True
-
 
     ## ******RESTA********
     if action == 2:
@@ -137,7 +136,6 @@ while action != 10:
             if respuesta != 1:
                 salirFlujoSecundario = True
 
-
     ## ******Raíz cuadrada********
     if action == 5:
         salirFlujoSecundario = False
@@ -187,7 +185,6 @@ while action != 10:
 
             if respuesta != 1:
                 salirFlujoSecundario = True
-
 
     ## ******Seno********
     if action == 7:
