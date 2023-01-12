@@ -53,3 +53,85 @@ while action != 10:
 
             if respuesta != 1 :
                 salirFlujoSecundario = True
+
+
+    ## ******RESTA********
+    if action == 2:
+        salirFlujoSecundario = False
+        while salirFlujoSecundario != True:
+
+            print("Elegiste Resta \n*************")
+
+            try:
+                numeroUno = int(input("Introduce el primer número: "))
+            except:
+                print("Sólo valores numéricos")
+            try:
+                numeroDos = int(input("Introduce el segundo número: "))
+            except:
+                print("Sólo valores numéricos")
+            print("\nEl resultado fue: ", numeroUno - numeroDos)
+
+            respuesta = 0
+
+            try:
+                respuesta = int(input("¿Deseas realizar otra operación Sí(1) / No(Cualquier caracter)?: "))
+            except:
+                print("Sólo números como respuestas")
+
+            if respuesta != 1:
+                salirFlujoSecundario = True
+
+    ## ******Multiplicar********
+    if action == 3:
+        salirFlujoSecundario = False
+        while salirFlujoSecundario != True:
+
+            print("Elegiste Multiplicar \n*************")
+
+            try:
+                numeroUno = int(input("Introduce el primer número: "))
+            except:
+                print("Sólo valores numéricos")
+            try:
+                numeroDos = int(input("Introduce el segundo número: "))
+            except:
+                print("Sólo valores numéricos")
+            print("\nEl resultado fue: ", numeroUno * numeroDos)
+
+            respuesta = 0
+
+            try:
+                respuesta = int(input("¿Deseas realizar otra operación Sí(1) / No(Cualquier caracter)?: "))
+            except:
+                print("Sólo números como respuestas")
+
+            if respuesta != 1:
+                salirFlujoSecundario = True
+
+    ## ******Dividir********
+    if action == 4:
+        salirFlujoSecundario = False
+        while salirFlujoSecundario != True:
+
+            print("Elegiste Dividir \n*************")
+
+            try:
+                numeroUno = float(input("Introduce el primer número: "))
+            except:
+                print("Sólo valores numéricos")
+            try:
+                numeroDos = float(input("Introduce el segundo número: "))
+            except:
+                print("Sólo valores numéricos")
+            print("\nEl resultado fue: ", numeroUno / numeroDos)
+
+            respuesta = 0
+
+            try:
+                respuesta = int(input("¿Deseas realizar otra operación Sí(1) / No(Cualquier caracter)?: "))
+            except:
+                print("Sólo números como respuestas")
+
+            if respuesta != 1:
+                salirFlujoSecundario = True
